@@ -7,7 +7,7 @@ import Bale from "../assets/bale.jpg";
 import Holqa from "../assets/Holqa.jpg";
 import Mount from "../assets/Mount.JPG";
 import Harenna from "../assets/Harenna.jpg";
-import Fincha from "../assets/Fincha.jpg";
+import Fox from "../assets/fox.jpg";
 const destinations = [
   {
     id: 1,
@@ -32,7 +32,7 @@ const destinations = [
   {
     id: 5,
     name: "Fincha",
-    image: Fincha,
+    image: Fox,
   },
 ];
 
