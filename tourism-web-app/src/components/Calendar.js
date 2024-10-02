@@ -47,7 +47,7 @@ const Calendar = () => {
       <h2>Kaalaandarii Turizimii Oromiyaa</h2>
       <h2>2017 Fulbaana</h2>
       <h4>Oromia Tourism</h4>
-      <h3>Calendr</h3>
+      <h3>Calendar</h3>
       <h3>September 2024</h3>
 
       <div className="calendar-grid">
