@@ -1,0 +1,44 @@
+.hotelList {
+  flex: 2;
+}
+
+.hotel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.hotel:hover {
+  transform: translateY(-5px);
+}
+
+.hotelImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.hotelInfo h3 {
+  margin: 0 0 10px 0;
+  color: var(--primary-color);
+}
+
+.hotelInfo p {
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+.rating {
+  color: var(--secondary-color);
+}
