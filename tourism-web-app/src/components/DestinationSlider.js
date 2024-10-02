@@ -49,7 +49,7 @@ const DestinationSlider = () => {
 
   return (
     <div className={styles.sliderContainer}>
-      <h2>Kaalaandarii Turizimii Oromiya</h2>
+      <h2>Kaalaandarii Turizimii Oromiyaa</h2>
       <h2>Popular Destinations</h2>
       <Slider {...settings}>
         {destinations.map((destination) => (
