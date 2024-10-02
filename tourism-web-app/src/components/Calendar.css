@@ -1,0 +1,71 @@
+.calendar-container {
+  width: 100%;
+  max-width: 800px; /* Increased max width */
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border: 2px solid #7164b9; /* Add a border for the calendar */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow for the border */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+h2 {
+  margin-bottom: -15px;
+  color: #7164b9; /* Title color */
+}
+h3 {
+  margin-top: -15px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  padding: 10px; /* Padding around the grid */
+}
+
+/* Full-row color classes */
+.day-row {
+  display: contents; /* Allow the child elements to be placed in the grid */
+}
+
+.light-green {
+  background-color: #a5d6a7; /* Light green for rows */
+}
+
+.cream {
+  background-color: #fffde7; /* Cream color for rows */
+}
+
+.day-header {
+  font-weight: bold;
+  background-color: #fcd94b; /* Light yellow background color for headers */
+  color: #333; /* Dark text color for better contrast */
+  padding: 15px 0; /* Increased padding for the header */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px; /* Rounded corners for headers */
+}
+
+.day-header div:nth-child(1) {
+  font-size: 16px; /* Increased font size */
+}
+
+.day-header div:nth-child(2) {
+  font-size: 14px;
+  color: #555; /* Slightly darker color for Oromia names */
+}
+
+.day-cell {
+  padding: 25px; /* Increased padding for day cells */
+  text-align: center;
+  border-radius: 8px; /* Rounded corners for day cells */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.day-cell:hover {
+  background-color: #ffeb3b; /* Bright yellow on hover */
+}

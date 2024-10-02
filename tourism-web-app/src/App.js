@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import DestinationSlider from "./components/DestinationSlider";
 import FilterSection from "./components/FilterSection";
 import Map from "./components/Map";
 import HotelList from "./components/HotelList";
 import styles from "./App.module.css";
+import Calendar from "./components/Calendar";
 
 const App = () => {
   const [filters, setFilters] = useState({
@@ -62,10 +64,10 @@ const App = () => {
       <Header />
       <DestinationSlider />
       <main className={styles.main}>
-        <FilterSection filters={filters} setFilters={setFilters} />
-        <Map />
-        <HotelList hotels={filteredHotels} />
+        <Calendar />
       </main>
+      <Footer />
+      <DestinationSlider />
     </div>
   );
 };
