@@ -9,7 +9,7 @@ const Header = () => (
     <div className={styles.content}>
       <div className={styles.logoContainer}>
         <FaPlane className={styles.icon} />
-        <h1>Oromia Tourism Bale</h1>
+        <h1>Oromia Tourism Bal</h1>
       </div>
     </div>
   </header>
